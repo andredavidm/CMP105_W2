@@ -14,6 +14,7 @@ public:
 	void handleInput();
 	void update();
 	void render();
+	sf::RectangleShape rect;
 
 private:
 	// Default functions for rendering to the screen.
